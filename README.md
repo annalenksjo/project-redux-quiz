@@ -8,7 +8,7 @@ The project was made with Redux. We started with planning the project in Figma, 
 
 On the second day we focused on fine tuning the functionality, and we did all the design. We did most of the programming together as a mob.
 
-If we had more time we would add more functionality and a visual progress bar. We would also work more with destructuring and dividing the code in to smaller components.
+If we had more time the next steps would be to add a visual progress bar, and make a color indication on the option-button user answered. We would also work more with destructuring and dividing the code in to smaller components.
 
 ## View it live
 
