@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { quiz } from 'reducers/quiz'
 import { useSelector, useDispatch } from 'react-redux'
 import styled from 'styled-components'
@@ -28,6 +29,7 @@ const RestartButton = styled.button`
   font-family: "Now Bold";
   font-size: 18px;
   color: #6A7885;
+  cursor: pointer;
   &:hover {
     background-color: #CAEBF2;
   }
@@ -68,9 +70,11 @@ export const Summary = () => {
         </>
       )}
 
-      <RestartButton type="button" onClick={() => dispatch(quiz.actions.restart())}>
-          RESTART QUIZ!
-      </RestartButton>
+      <Link to="/">
+        <RestartButton type="button" onClick={() => dispatch(quiz.actions.restart())}>
+            RESTART QUIZ!
+        </RestartButton>
+      </Link>
     </SummaryWrapper>
   )
 }

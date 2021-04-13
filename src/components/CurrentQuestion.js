@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import styled from 'styled-components'
 
@@ -19,22 +19,22 @@ const QuestionWrapper = styled.div`
   align-items: center;
 `
 const AboutMe = styled.div`
- display:flex;
- align-items: center;
- justify-content: center;
- border: solid 1px #9099A5;
- border-radius: 2px;
- box-shadow: 5px 5px #fefeff, 5px 5px 0px 1px #9099A5;
- background-color: #c4ecf4;
- position:absolute;
- top:0;
- bottom:300px;
- left:0;
- right:0;
- width: 200px;
- height: 40px;
- margin: auto;
- text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #9099A5;
+  border-radius: 2px;
+  box-shadow: 5px 5px #fefeff, 5px 5px 0px 1px #9099A5;
+  background-color: #c4ecf4;
+  position: absolute;
+  top:0;
+  bottom: 320px;
+  left: 0;
+  right:0;
+  width: 200px;
+  height: 40px;
+  margin: auto;
+  text-align: center;
 `
 
 const QuestionImage = styled.img`
@@ -66,6 +66,7 @@ const QuestionButton = styled.button`
   background-color: #CAEBF2;
   border: 1px solid #9099A5;
   border-radius: 2px;
+  cursor: pointer;
   box-shadow: 7px 7px white, 7px 7px 0px 1px #9099A5;
   &:hover {
     background-color: rgb(203,200,254);
@@ -82,11 +83,11 @@ const NextButton = styled.button`
   font-size: 18px;
   font-family: "Now Bold";
   color: #6A7885;
+  cursor: pointer;
   &:hover {
     background-color: #CAEBF2;
   }
 `
-
 
 export const CurrentQuestion = () => {
   const question = useSelector((state) => state.quiz.questions[state.quiz.currentQuestionIndex])
