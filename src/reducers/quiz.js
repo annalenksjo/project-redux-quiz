@@ -3,15 +3,15 @@ import { createSlice } from '@reduxjs/toolkit'
 // Change these to your own questions!
 const questions = [
   { id: 1, questionImage: './images/yennie.jpg', questionText: 'What was the name of Yennies first horse?', options: ['Tigerlija', 'Mister Opal', 'Skumpande-hoven', 'Meggie '], correctAnswerIndex: 2 },
-  { id: 2, questionImage: './images/anna.jpeg', questionText: 'Where did Anna meet her boyfriend?', options: ['Grocery store', 'Tinder', 'Hardware store', 'Party'], correctAnswerIndex: 2 },
+  { id: 2, questionImage: './images/anna.jpg', questionText: 'Where did Anna meet her boyfriend?', options: ['Grocery store', 'Tinder', 'Hardware store', 'Party'], correctAnswerIndex: 2 },
   { id: 3, questionImage: './images/siri.jpg', questionText: 'What is the name of Siris dog?', options: ['Benny', 'Kenny', 'Lenny', 'Penny'], correctAnswerIndex: 2 },
-  { id: 4, questionImage: './images/elle.jpg', questionText: 'What is the name of Elles cat?', options: ['Bulten', 'Puzzel', 'Snöret'], correctAnswerIndex: 2 },
+  { id: 4, questionImage: './images/elle.png', questionText: 'What is the name of Elles cat?', options: ['Bulten', 'Puzzel', 'Snöret'], correctAnswerIndex: 2 },
   { id: 5, questionImage: './images/yennie.jpg', questionText: 'How many sibblings does Yennie have?', options: ['3', '5', '4', '1'], correctAnswerIndex: 2 },
-  { id: 6, questionImage: './images/anna.jpeg', questionText: 'What sport did Anna do growing up?', options: ['Tennis', 'Ballet', 'Football', 'Gymnastics'], correctAnswerIndex: 3 },
+  { id: 6, questionImage: './images/anna.jpg', questionText: 'What sport did Anna do growing up?', options: ['Tennis', 'Ballet', 'Football', 'Gymnastics'], correctAnswerIndex: 3 },
   { id: 7, questionImage: './images/siri.jpg', questionText: 'What country did Siri live in for 3 years?', options: ['USA', 'Australia', 'Norway', 'Thailand'], correctAnswerIndex: 1 },
-  { id: 8, questionImage: './images/elle.jpg', questionText: 'What country is Elles dad from?', options: ['Netherlands', 'Germany', 'Denmark'], correctAnswerIndex: 1 },
+  { id: 8, questionImage: './images/elle.png', questionText: 'What country is Elles dad from?', options: ['Netherlands', 'Germany', 'Denmark'], correctAnswerIndex: 1 },
   { id: 9, questionImage: './images/yennie.jpg', questionText: 'In what country did Yennie get caught “human trafficing” her friend who lost her passport?', options: ['Guatemala', 'Vietnam', 'Leshoto', 'Palau'], correctAnswerIndex: 0 },
-  { id: 10, questionImage: './images/anna.jpeg', questionText: 'Whats the name of Annas dog?', options: ['Kira', 'Molly', 'Mira', 'Elsa'], correctAnswerIndex: 0 },
+  { id: 10, questionImage: './images/anna.jpg', questionText: 'Whats the name of Annas dog?', options: ['Kira', 'Molly', 'Mira', 'Elsa'], correctAnswerIndex: 0 },
   { id: 11, questionImage: './images/siri.jpg', questionText: 'What does Siri have a Bachelor in?', options: ['Journalism', 'Business', 'Fashion Design', 'Marketing'], correctAnswerIndex: 3 }
 ]
 

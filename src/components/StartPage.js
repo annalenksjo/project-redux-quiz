@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { quiz } from 'reducers/quiz'
-// import { useSelector, useDispatch } from 'react-redux'
 import styled from 'styled-components'
 
 const StartButton = styled.button`
@@ -30,18 +28,17 @@ const StartPageWrapper = styled.div`
     justify-content: center;
     align-items: center;
   `
-  const StartImage = styled.img`
-  height: 400px;
+const StartImage = styled.img`
+    height: 250px;
 `
-
 
 export const StartPage = () => {
   return (
     <StartPageWrapper>
-       <StartImage src="" alt="" />
-      <StartText>How well do you know your team?</StartText>
+      <StartImage src="./images/startimg.gif" alt="Gif with bear" />
+      <StartText>Check how well you know us!</StartText>
       <Link to="/quiz">
-        <StartButton type="button"> START QUIZ</StartButton>
+        <StartButton type="button">START QUIZ</StartButton>
       </Link>
     </StartPageWrapper>
   )

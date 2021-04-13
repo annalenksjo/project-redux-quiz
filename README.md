@@ -1,14 +1,15 @@
 # Redux quiz group project
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+This project was made during the Technigo Bootcamp, it was a group-project.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+The project was made with Redux. We started with planning the project in Figma, and then we set up the basic functionality and structure together on day one.
+
+On the second day we focused on fine tuning the functionality, and we did all the design. We did most of the programming together as a mob.
+
+If we had more time we would add more functionality and a visual progress bar. We would also work more with destructuring and dividing the code in to smaller components.
 
 ## View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
-A
+Try our quiz here:
